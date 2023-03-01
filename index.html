@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto final CV</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Barra de navegación-->
+    <header class="barra">
+        <div class="logo" id="logo">
+            <img src="https://www.pngplay.com/wp-content/uploads/12/CV-Resume-Download-Free-PNG.png" alt="logo_cv">
+            Curriculum Vitae 
+        </div>
+
+        <nav>
+            <ul class="links">
+                <li id="Infopersonal"><a href="#contenedorInfoPersonal">INFORMACION PERSONAL</a></li> 
+                <li id="exp"><a href="#conteiner_exp">EXPERIENCIA</a></li> 
+                <li id="hab"><a href="#contenedorHab">HABILIDADES</a></li>
+            </ul>
+        </nav>
+        <a href="#formularioContacto" class="contacto" id="cont"><button>CONTACTO</button></a>
+    </header>
+    
+    <!--Página principal-->    
+    <div class="container" id="portada">
+        <div class="container_left">
+                <img src="https://randomuser.me/api/portraits/men/51.jpg" alt="foto_perfil_CV" id="foto_pp">
+                <h1>RYAN WRIGHT</h1>
+                <h3>Licenciado en Recursos Humanos</h3>
+        </div>
+      
+        <div class="descripcion">    
+            <h1>SOBRE MI</h1>
+            <p>Soy Ryan Wright, tengo 34 años y soy licenciado en Recurso Humanos.
+            Luego de recebirme trabajé en varias organizaciones, por lo que cuento con experiencia coordinando personas y tareas, a través de la cual pude desarollar habilidades comunicativas y de traslado de información las cuales me ayudan a realizar mejor mi trabajo.
+            Me considero una persona que puede adaptrse facilmente a un entorno laboral que requiere cambios constantes y tomar el mando si es necesario.</p>   
+        </div> 
+    </div>
+
+    <!--Información personal-->
+    <div class="containerInfo" id="contenedorInfoPersonal">
+        <div class="info_left">
+            <img src="https://randomuser.me/api/portraits/men/51.jpg" alt="foto_perfil_CV" id="foto_info">
+                <h1>RYAN WRIGHT</h1>
+                <h3>Licenciado en Recursos Humanos</h3>
+        </div>
+
+        <div class="info_center">
+            <p>Nací en la ciudad de Boston, EEUU. Terminé el High School allí y para completar mis estudios universitarios me mudé a Reino Unido.
+            En mis tiempos libres me gusta hacer deportes y aprender sobre lenguajes de programación</p>
+        </div>
+        
+        <div class="info_right">
+            <a href="mailto:ryan.wright@example.com" class="Email">
+                <img src="https://cdn-icons-png.flaticon.com/512/2258/2258570.png" alt="icono de un email">
+                <p id="emailPersona">ryan.wright@example.com</p>
+            </a>
+
+            <a href="" class="fecha">
+                <img src="https://cdn-icons-png.flaticon.com/512/2195/2195322.png" alt="icono calendario">
+                <p id="fecha_nacimiento">9/6/1989</p>
+            </a>
+
+            <a href="" class="ubicacion">
+                <img src="https://cdn-icons-png.flaticon.com/512/447/447031.png" alt="icono ubicacion">
+                <p id="ubicacion">9939 Lakeshore Rd; London, UK</p>
+            </a>
+
+            <a href="tel:(621) 982-1772" class="teléfono">
+                <img src="https://cdn-icons-png.flaticon.com/512/455/455705.png" alt="icono de un telefono" style="height:20px; width:20px">
+                <p id="telefonoPersona">(621) 982-1772</p>
+            </a>
+        </div>
+
+    </div>
+
+    <!--Experiencia-->
+    <div class="conteiner_exp" id="conteiner_exp">
+        <h1 style="font-size: 50px;">EXPERIENCIA LABORAL</h1>
+
+        <div class="bloques">
+            <div class="bloque1">
+                <h3>THE BRITISH COMPANY (Compañía de seguros)</h3>
+                    <ul>
+                        <li>Años: 2009-2015</li>
+                        <li>Puesto: Sub-gerente de Recursos Humanos</li>
+                    </ul>
+            </div>
+
+            <div class="bloque2">
+                <h3>GENTLEMANS (Multinacional de comunicaciones)</h3>
+                    <ul>
+                    <li>Años: 2016-2020</li>
+                    <li>Puesto: Departamento de relaciones exteriores</li>
+                </ul>
+            </div>
+
+            <div class="bloque3">
+                <h3>LAST DANCE (Banco privado)</h3>
+                <ul>
+                    <li>Años: 2020-2021</li>
+                    <li>Puesto: Gerente de contratciones</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--Habilidades-->
+    <div class="contenedorHab" id="contenedorHab">
+        <h1 style="font-size: 50px;">HABILIDADES</h1>
+
+        <div class="bloques">
+            <div class="bloque1">
+                <h3>Habilidades Interpersonales</h3>
+                    <ul>
+                        <li>Trabajo en equipo</li>
+                        <li>Buena locución</li>
+                        <li>Coordinación de personas</li>
+                    </ul>
+            </div>
+
+            <div class="bloque2">
+                <h3>Idiomas</h3>
+                    <ul>
+                    <li>Español: Nativo</li>
+                    <li>Inlgés: Avanzado</li>
+                </ul>
+            </div>
+
+            <div class="bloque3">
+                <h3>Informática</h3>
+                <ul>
+                    <li>Paquete Office: Muy bueno</li>
+                    <li>Programación (HTML-CSS-JS): Básico</li>
+                    <li>Photoshop: Básico</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--Contacto-->
+    <div class="formularioContacto" id="formularioContacto">
+        <form class="contacto">
+            <label for="nombres">Nombre y Apellido
+                <input type="text" id="nombres" required>
+            </label>    
+      
+            <label for="correo">Correo Electrónico
+                <input type="text" id="correo" required>
+            </label>
+
+            <label for="celular">Celular
+                <input type="text" id="celular" required>
+            </label>
+      
+            <label for="mensaje">Mensaje
+                <textarea id="mensaje" required></textarea>
+                <input type="submit" value="Enviar">
+            </label>    
+        </form>
+    </div>
+
+    <script src="index.js"></script>   
+
+</body>
+
+</html>
